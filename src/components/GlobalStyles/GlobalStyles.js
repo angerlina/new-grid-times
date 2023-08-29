@@ -49,6 +49,8 @@ table {
 
 /* DESIGN TOKENS */
 html {
+  --grid-border: solid var(--color-gray-300) 1px;
+  --grid-padding: 16px;
   --color-white: ${COLORS.white};
   --color-offblack: ${COLORS.offblack};
   --color-gray-100: ${COLORS.gray[100]};
