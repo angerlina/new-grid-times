@@ -61,7 +61,11 @@ grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
 gap: 16px;
 `;
 
-const SportsSection = styled.section``;
+const SportsSection = styled.section`
+  @media ${QUERIES.laptopAndUp} {
+    border-left: var(--grid-border);
+    padding-left: var(--grid-padding);
+  }`;
 
 const SportsStories = styled.div`
   display: grid;
@@ -77,11 +81,6 @@ const SportsStories = styled.div`
   @media ${QUERIES.tabletOnly} {
     max-width: calc(100vw - var(--padding-around) * 3);
   }
-  @media ${QUERIES.laptopAndUp} {
-    border-left: var(--grid-border);
-    padding-left: var(--grid-padding);
-  }
-
 `;
 
 
