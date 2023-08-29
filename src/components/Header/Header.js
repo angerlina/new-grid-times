@@ -132,7 +132,6 @@ const SubscribeSection = styled.div`
 
 const AlreadySubscriber = styled.a`
   font-size: 0.875rem;
-  font-family: var(--);
   font-style: italic;
   text-decoration: underline;
   color: var(--color-gray-900);
