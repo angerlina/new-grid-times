@@ -79,7 +79,7 @@ const SportsStories = styled.div`
     }
   }
   @media ${QUERIES.tabletOnly} {
-    max-width: calc(100vw - var(--padding-around) * 3);
+    max-width: 100vw;
   }
 `;
 

@@ -82,7 +82,7 @@ const SecondaryStorySection = styled.section`
   grid-area: secondary-stories;
   @media ${QUERIES.laptopAndUp} {
     border-right: var(--grid-border);
-    padding-right: var(--grid-padding);;
+    padding-right: var(--grid-padding);
   }
 `;
 
